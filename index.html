@@ -4,43 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Images/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    
-    <title>Challenge II Cyemezo Brown fidele</title>
+    <title>.Ping </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="Images/logo.svg" alt="logo_image">
+    <section class="container">
+        <img src="Images/logo.svg" alt="logo" class="logo">
+        <h1>We are launching <span>soon!</span></h1>
+        <p class="sub">Subscribe and get notified</p>
+        <form action="#" id="validate" name="form" class="form">
+            <input type="text" id="email" name="email" placeholder="your email address...">
+            <div class="errortext" id="error"></div>
+            <button type="submit">Notify Me</button>
+        </form>
+        <img src="Images/illustration-dashboard.png" alt="main photo" class="mainphoto">
+    </section>
+    <footer>
+        <div class="icons">
+            <a href="#"><img src="https://img.icons8.com/ultraviolet/80/000000/facebook-new.png"/></a>
+            <a href="#"><img src="https://img.icons8.com/ultraviolet/80/000000/twitter.png"/></a>
+            <a href="#"><img src="https://img.icons8.com/ultraviolet/80/000000/instagram-new.png"/></a>
         </div>
-        <div class="form_box">
-            <h2 class="form_title">
-                We are launching <span>soon!</span>
-            </h2>
-            <p class="form_subtitle">
-                Subscribe and get notified
-            </p>
-            <div class="form">
-                <form onsubmit="">
-                    <input type="text">
-                    <button type="submit">Notify Me</button>
-                </form>
-            </div>
-        </div>
-        <div class="illustration_chart">
-            <img src="Images/illustration-dashboard.png" alt="an illustration chart dashboard">
-        </div>
-        <div class="footer">
-            <div class="social-icons">
-                <i class="fab fa-twitter">twitter</i>
-                <i class="fab fa-facebook-f">facebook</i>
-                <i class="fab fa-instagram w3-large">instagram</i>
-                <ion-icon name="logo-whatsapp"></ion-icon>
-            </div>
-            <p>&copy;Copyright Ping. All rights reserved</p>
-        </div>
-    </div>
+        <p class="copyright">&copy;Copyright Ping. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+
 </body>
 </html>
